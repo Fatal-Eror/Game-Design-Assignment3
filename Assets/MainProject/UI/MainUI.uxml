@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Back" style="flex-grow: 1; justify-content: center; align-self: auto; align-items: stretch;">
+        <ui:VisualElement name="Top" style="flex-grow: 1; flex-basis: 33.3%; align-items: center; padding-top: 4%; padding-right: 4%; padding-bottom: 4%; padding-left: 4%;">
+            <ui:Label tabindex="-1" text="Current:00.00Sec" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Timer" style="-unity-font: url(&apos;project://database/Assets/MainProject/UI/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=b7efb44fecf27674686d74541ce36aab&amp;type=3#NotInter-Regular&apos;); color: rgb(255, 255, 255); -unity-text-outline-width: 1px; -unity-text-outline-color: rgb(0, 0, 0); font-size: 20px; text-shadow: 2px 2px 2px rgb(0, 0, 0);" />
+            <ui:Label tabindex="-1" text="Best:00.00Sec" parse-escape-sequences="true" display-tooltip-when-elided="true" name="BestTime" style="-unity-font: url(&apos;project://database/Assets/MainProject/UI/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=b7efb44fecf27674686d74541ce36aab&amp;type=3#NotInter-Regular&apos;); color: rgb(255, 255, 255); -unity-text-outline-width: 1px; -unity-text-outline-color: rgb(0, 0, 0); font-size: 20px; text-shadow: 2px 2px 2px rgb(0, 0, 0);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Mid" style="flex-grow: 1; align-items: center; justify-content: center; flex-basis: 33.3%;">
+            <ui:VisualElement name="Crosshair" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/MainProject/Art/Icon/crosshair.png?fileID=2800000&amp;guid=b9e1152455a9f574b96d50b0bf8fd6a9&amp;type=3#crosshair&apos;); align-self: auto; justify-content: flex-start; flex-basis: auto; width: 18%; height: 18%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Bottom" style="flex-grow: 1; flex-basis: 33.3%;" />
+    </ui:VisualElement>
+</ui:UXML>
